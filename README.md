@@ -120,11 +120,6 @@ Let's build what is next.
 
 > "Good code, like a good speech, should be clear before it is clever."
 
----
-
-## Dev Quote of the Day
-
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
 
 ---
 
