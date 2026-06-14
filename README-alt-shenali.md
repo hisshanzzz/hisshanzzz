@@ -1,0 +1,48 @@
+# Hi there, I'm <span style="color:#f0b429">**Hisshan!**</span>
+
+---
+
+<img align="right" alt="Mohamed Hisshan" width="280" src="https://github.com/hisshanzzz.png" />
+
+### 🎤 A little more about me...
+
+I'm an **AI & Data Science undergraduate** at Robert Gordon University × Open University of Sri Lanka, with over **4.5 years** as a Toastmaster, speech adjudicator, and founder of **English Pro Hub** — where I coach students for English Day competitions across Sri Lanka.
+
+I love turning real problems into working tools — whether that's analyzing a speech script before it hits the stage, building an AI voice companion for dementia patients in 24 hours, or shipping a 2D game with my team at the American Center.
+
+Currently exploring **Python, Next.js, TypeScript & AI voice systems** to grow as a developer who can explain anything to anyone. 🚀
+
+**What I'm building right now:**
+- [**SpeechLens**](https://github.com/hisshanzzz/speechlens) — speech timing, filler words & readability checker
+- [**ReCall**](https://github.com/hisshanzzz/recall) — AI companion for dementia patients (Team SustainX, Cursor Buildathon)
+- [**The Stage**](https://github.com/hisshanzzz/Portfolio) — my portfolio with a live SpeechLens demo
+- [**JV Pirates**](https://github.com/hisshanzzz/JVPirates) — 2D Pygame adventure (Team Typhoons)
+
+---
+
+### 📫 Get in Touch:
+
+Let's connect and collaborate! Feel free to reach out via email at **[hisshanm@yahoo.com](mailto:hisshanm@yahoo.com)** or connect with me on **[LinkedIn](https://www.linkedin.com/in/mohamed-jaufer-mohamed-hisshan-31399525b)**.
+
+<br clear="right"/>
+
+---
+
+### 🛠️ Tech I work with
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+---
+
+<div align="center">
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
+
+</div>
