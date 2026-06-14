@@ -113,6 +113,21 @@ Let's build what is next.
 
 ---
 
+
+---
+
+## Quote on Code
+
+> "Good code, like a good speech, should be clear before it is clever."
+
+---
+
+## Dev Quote of the Day
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
+
+---
+
 ## Profile Views
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=hisshanzzz&color=f0b429&style=for-the-badge)
