@@ -113,9 +113,6 @@ Let's build what is next.
 
 ---
 
-
----
-
 ## Quote on Code
 
 > "Good code, like a good speech, should be clear before it is clever."
