@@ -47,7 +47,7 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true" alt="GitHub stats" />
 
 </div>
 
