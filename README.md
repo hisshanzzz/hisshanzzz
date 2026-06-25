@@ -4,7 +4,7 @@
 
 **AI & Data Science student** · **Speaker** · **Builder** · Colombo, Sri Lanka
 
-I grew up on stages - Toastmasters, Debate, Emcee, Public Speaking — not in a code editor. I started building when I saw real problems. Seakers losing points on timing, students needing better tools, teams needing to ship under pressure.
+I grew up on stages - Toastmasters, Debate, Emcee, Public Speaking - not in a code editor. I started building when I saw real problems. Seakers losing points on timing, students needing better tools, teams needing to ship under pressure.
 
 Now I build things that match how I actually work: clear, practical, and made for real people.
 
