@@ -23,6 +23,7 @@ Now I build things that match how I actually work: clear, practical, and made fo
 | | Project | What it does |
 |---|---------|--------------|
 | 🎤 | [**SpeechLens**](https://github.com/hisshanzzz/speechlens) | Checks speech scripts for timing, filler words and readability |
+| 📈 | [**Price Trends in Sri Lanka**](https://github.com/hisshanzzz/price-trends-in-sri-lanka) | Jupyter analysis of essential price trends (2023–2024) with pandas and matplotlib |
 | 🧠 | [**ReCall**](https://github.com/hisshanzzz/recall) | AI voice companion for dementia patients — Team SustainX, Cursor Buildathon |
 | 🎭 | [**The Stage**](https://github.com/hisshanzzz/Portfolio) | My portfolio — spotlight cursor, Toastmasters timing lights, live SpeechLens demo |
 | 🎮 | [**JV Pirates**](https://github.com/hisshanzzz/JVPirates) | 2D Pygame adventure — Team Typhoons, CraftQuest @ American Center Colombo |
@@ -39,7 +40,7 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 ## Tech I use
 
-`Python` · `JavaScript` · `TypeScript` · `Next.js` · `Pygame` · `LiveKit` · `Gemini` · `Supabase` · `Git`
+`Python` · `JavaScript` · `TypeScript` · `Next.js` · `pandas` · `matplotlib` · `Jupyter` · `Pygame` · `LiveKit` · `Gemini` · `Supabase` · `Git`
 
 ---
 
