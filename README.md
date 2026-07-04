@@ -23,6 +23,7 @@ Now I build things that match how I actually work: clear, practical, and made fo
 | | Project | What it does |
 |---|---------|--------------|
 | 🎤 | [**SpeechLens**](https://github.com/hisshanzzz/speechlens) | Checks speech scripts for timing, filler words and readability |
+| ⚽ | [**FIFA World Cup 2026 Intel**](https://github.com/hisshanzzz/fifa-world-cup-2026-intel) | Match predictor, player tracker, and sentiment apps on real WC data |
 | 📈 | [**Price Trends in Sri Lanka**](https://github.com/hisshanzzz/price-trends-in-sri-lanka) | Jupyter analysis of essential price trends (2023–2024) with pandas and matplotlib |
 | 🧠 | [**ReCall**](https://github.com/hisshanzzz/recall) | AI voice companion for dementia patients — Team SustainX, Cursor Buildathon |
 | 🎭 | [**The Stage**](https://github.com/hisshanzzz/Portfolio) | My portfolio — spotlight cursor, Toastmasters timing lights, live SpeechLens demo |
