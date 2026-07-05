@@ -11,10 +11,23 @@ Now I build things that match how I actually work: clear, practical, and made fo
 **Open to internships and collaborations.**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-The_Stage-f0b429?style=for-the-badge&logo=vercel&logoColor=black)](https://portfolio-three-swart-10.vercel.app/)
+[![Medium](https://img.shields.io/badge/Medium-FIFA_WC_2026_Intel-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-jaufer-mohamed-hisshan-31399525b)
 [![Email](https://img.shields.io/badge/Email-hisshanm@yahoo.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hisshanm@yahoo.com)
 
 <br clear="right"/>
+
+---
+
+## 📌 Pinned — FIFA World Cup 2026 Intel
+
+> **New on Medium:** [I Built 3 Python Dashboards for FIFA World Cup 2026](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) — match predictor, player tracker, and live sentiment on real CC0 data. Round of 16 in production.
+
+| | Link |
+|---|------|
+| 📖 **Read** | [Medium article](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) |
+| 💻 **Code** | [github.com/hisshanzzz/fifa-world-cup-2026-intel](https://github.com/hisshanzzz/fifa-world-cup-2026-intel) |
+| 🔮 **Live** | [Match Predictor](https://wc2026-match-predictor.streamlit.app) · [Player Tracker](https://wc2026-player-tracker.streamlit.app) · [Sentiment](https://wc2026-sentiment.streamlit.app) |
 
 ---
 
@@ -23,7 +36,8 @@ Now I build things that match how I actually work: clear, practical, and made fo
 | | Project | What it does |
 |---|---------|--------------|
 | 🎤 | [**SpeechLens**](https://github.com/hisshanzzz/speechlens) | Checks speech scripts for timing, filler words and readability |
-| ⚽ | [**FIFA World Cup 2026 Intel**](https://github.com/hisshanzzz/fifa-world-cup-2026-intel) | Match predictor, player tracker, and sentiment apps on real WC data — [Medium write-up](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) || 📈 | [**Price Trends in Sri Lanka**](https://github.com/hisshanzzz/price-trends-in-sri-lanka) | Jupyter analysis of essential price trends (2023–2024) with pandas and matplotlib |
+| ⚽ | [**FIFA World Cup 2026 Intel**](https://github.com/hisshanzzz/fifa-world-cup-2026-intel) | Match predictor, player tracker, and sentiment apps on real WC data — [Medium write-up](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) |
+| 📈 | [**Price Trends in Sri Lanka**](https://github.com/hisshanzzz/price-trends-in-sri-lanka) | Jupyter analysis of essential price trends (2023–2024) with pandas and matplotlib |
 | 🧠 | [**ReCall**](https://github.com/hisshanzzz/recall) | AI voice companion for dementia patients — Team SustainX, Cursor Buildathon |
 | 🎭 | [**The Stage**](https://github.com/hisshanzzz/Portfolio) | My portfolio — spotlight cursor, Toastmasters timing lights, live SpeechLens demo |
 | 🎮 | [**JV Pirates**](https://github.com/hisshanzzz/JVPirates) | 2D Pygame adventure — Team Typhoons, CraftQuest @ American Center Colombo |
