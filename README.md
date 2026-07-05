@@ -19,6 +19,17 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 ---
 
+## 📌 Pinned — Buildathon District Platform (Build Live)
+
+> **Colombo · Galle · Kandy · Jaffna** — live district leaderboards for Cursor Build Live events across Sri Lanka. Check in from your district, watch the map light up, browse archived hackathon results.
+
+| | Link |
+|---|------|
+| 🗺️ **Live site** | [colombo-build-live.vercel.app](https://colombo-build-live.vercel.app) |
+| 💻 **Code** | [github.com/hisshanzzz/colombo-build-live](https://github.com/hisshanzzz/colombo-build-live) |
+
+---
+
 ## 📌 Pinned — ReCall (Cursor Buildathon 2026)
 
 > **Team SustainX · Cursor 24H Buildathon Colombo · May 2026** — AI voice companion for dementia patients. Avatar agent **Ama** speaks Sinhala, uses a family memory book, and sends caregivers WhatsApp session summaries.
@@ -53,6 +64,7 @@ Now I build things that match how I actually work: clear, practical, and made fo
 | 🧠 | [**ReCall**](https://github.com/hisshanzzz/recall) | AI voice companion for dementia patients — **Team SustainX, Cursor Buildathon 2026** · [demo](https://youtube.com/shorts/dYMUKUocIl4) |
 | 🎭 | [**The Stage**](https://github.com/hisshanzzz/Portfolio) | My portfolio — spotlight cursor, Toastmasters timing lights, live SpeechLens demo |
 | 🎮 | [**JV Pirates**](https://github.com/hisshanzzz/JVPirates) | 2D Pygame adventure — Team Typhoons, CraftQuest @ American Center Colombo |
+| 🗺️ | [**Buildathon District Platform**](https://github.com/hisshanzzz/colombo-build-live) | Live district leaderboards for **Colombo · Galle · Kandy · Jaffna** Build Live — [live site](https://colombo-build-live.vercel.app) |
 
 ---
 
