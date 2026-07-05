@@ -74,7 +74,13 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" alt="GitHub stats" />
+
+<img height="165" src="https://streak-stats.demolab.com/?user=hisshanzzz&theme=radical&hide_border=true" alt="GitHub streak" />
+
+<br />
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=hisshanzzz&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution graph" />
 
 </div>
 
