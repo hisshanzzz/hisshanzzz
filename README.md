@@ -19,6 +19,18 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 ---
 
+## 📌 Pinned — ReCall (Cursor Buildathon 2026)
+
+> **Team SustainX · Cursor 24H Buildathon Colombo · May 2026** — AI voice companion for dementia patients. Avatar agent **Ama** speaks Sinhala, uses a family memory book, and sends caregivers WhatsApp session summaries.
+
+| | Link |
+|---|------|
+| 🎬 **Demo** | [YouTube — 60s walkthrough](https://youtube.com/shorts/dYMUKUocIl4) |
+| 💻 **Code** | [github.com/hisshanzzz/recall](https://github.com/hisshanzzz/recall) |
+| 👥 **Team** | Hiruka Devendra · Methuli Heenkenda · Sehara Kodikara · Mohamed Hisshan |
+
+---
+
 ## 📌 Pinned — FIFA World Cup 2026 Intel
 
 > **New on Medium:** [I Built 3 Python Dashboards for FIFA World Cup 2026](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) — match predictor, player tracker, and live sentiment on real CC0 data. Round of 16 in production.
@@ -38,7 +50,7 @@ Now I build things that match how I actually work: clear, practical, and made fo
 | 🎤 | [**SpeechLens**](https://github.com/hisshanzzz/speechlens) | Checks speech scripts for timing, filler words and readability |
 | ⚽ | [**FIFA World Cup 2026 Intel**](https://github.com/hisshanzzz/fifa-world-cup-2026-intel) | Match predictor, player tracker, and sentiment apps on real WC data — [Medium write-up](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) |
 | 📈 | [**Price Trends in Sri Lanka**](https://github.com/hisshanzzz/price-trends-in-sri-lanka) | Jupyter analysis of essential price trends (2023–2024) with pandas and matplotlib |
-| 🧠 | [**ReCall**](https://github.com/hisshanzzz/recall) | AI voice companion for dementia patients — Team SustainX, Cursor Buildathon |
+| 🧠 | [**ReCall**](https://github.com/hisshanzzz/recall) | AI voice companion for dementia patients — **Team SustainX, Cursor Buildathon 2026** · [demo](https://youtube.com/shorts/dYMUKUocIl4) |
 | 🎭 | [**The Stage**](https://github.com/hisshanzzz/Portfolio) | My portfolio — spotlight cursor, Toastmasters timing lights, live SpeechLens demo |
 | 🎮 | [**JV Pirates**](https://github.com/hisshanzzz/JVPirates) | 2D Pygame adventure — Team Typhoons, CraftQuest @ American Center Colombo |
 
