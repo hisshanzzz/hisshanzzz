@@ -27,6 +27,7 @@ Now I build things that match how I actually work: clear, practical, and made fo
 |---|------|
 | 🗺️ **Live site** | [colombo-build-live.vercel.app](https://colombo-build-live.vercel.app) |
 | 💻 **Code** | [github.com/hisshanzzz/colombo-build-live](https://github.com/hisshanzzz/colombo-build-live) |
+| 🔗 **GitHub Pages** | [hisshanzzz.github.io/colombo-build-live](https://hisshanzzz.github.io/colombo-build-live) → Vercel |
 
 ---
 
@@ -86,13 +87,13 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&cache_seconds=86400" alt="GitHub stats" />
 
-<img height="165" src="https://streak-stats.demolab.com/?user=hisshanzzz&theme=radical&hide_border=true" alt="GitHub streak" />
+<img height="165" src="https://streak-stats.demolab.com/?user=hisshanzzz&theme=radical&hide_border=true&cache_seconds=86400" alt="GitHub streak" />
 
 <br />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=hisshanzzz&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=hisshanzzz&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph&cache_seconds=86400" alt="Contribution graph" />
 
 </div>
 
