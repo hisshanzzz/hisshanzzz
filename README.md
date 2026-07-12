@@ -1,5 +1,7 @@
-![Mohamed Hisshan — AI & Data Science · Speaker · Builder](https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/dark.svg#gh-dark-mode-only)
-![Mohamed Hisshan — AI & Data Science · Speaker · Builder](https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/light.svg#gh-light-mode-only)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/dark.svg?v=3#gh-dark-mode-only" width="100%" alt="Mohamed Hisshan banner"/>
+  <img src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/light.svg?v=3#gh-light-mode-only" width="100%" alt="Mohamed Hisshan banner"/>
+</p>
 
 # Hi, I'm Mohamed Hisshan
 
