@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/dark.svg?v=4#gh-dark-mode-only" width="100%" alt="Mohamed Hisshan banner"/>
-  <img src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/light.svg?v=4#gh-light-mode-only" width="100%" alt="Mohamed Hisshan banner"/>
+  <img src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/dark.svg?v=5#gh-dark-mode-only" width="100%" alt="Mohamed Hisshan banner"/>
+  <img src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/light.svg?v=5#gh-light-mode-only" width="100%" alt="Mohamed Hisshan banner"/>
 </p>
 
 # Hi, I'm Mohamed Hisshan
