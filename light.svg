@@ -71,13 +71,6 @@
   <rect x="558" y="106" width="2" height="16" fill="#0969da">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
-
-  <circle cx="318" cy="136" r="4" fill="#1a7f37">
-    <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <text x="330" y="140" font-family="sans-serif" font-size="12" fill="#1a7f37">Open to internships</text>
-
   <rect x="0" y="0" width="800" height="2" fill="#0969da" opacity="0.1">
     <animate attributeName="y" values="0;200;0" dur="10s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;0.15;0" dur="10s" repeatCount="indefinite"/>
