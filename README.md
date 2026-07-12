@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/dark.svg?v=5#gh-dark-mode-only" width="100%" alt="Mohamed Hisshan banner"/>
-  <img src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/light.svg?v=5#gh-light-mode-only" width="100%" alt="Mohamed Hisshan banner"/>
+  <img src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/dark.svg?v=6#gh-dark-mode-only" width="100%" alt="Mohamed Hisshan banner"/>
+  <img src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/light.svg?v=6#gh-light-mode-only" width="100%" alt="Mohamed Hisshan banner"/>
 </p>
 
 # Hi, I'm Mohamed Hisshan
@@ -12,8 +12,6 @@
 I grew up on stages - Toastmasters, Debate, Emcee, Public Speaking - not in a code editor. I started building when I saw real problems. Seakers losing points on timing, students needing better tools, teams needing to ship under pressure.
 
 Now I build things that match how I actually work: clear, practical, and made for real people.
-
-**Open to internships and collaborations.**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-The_Stage-f0b429?style=for-the-badge&logo=vercel&logoColor=black)](https://portfolio-three-swart-10.vercel.app/)
 [![Medium](https://img.shields.io/badge/Medium-FIFA_WC_2026_Intel-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7)
