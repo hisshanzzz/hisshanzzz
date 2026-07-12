@@ -1,8 +1,5 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/light.svg">
-  <img alt="Mohamed Hisshan — AI &amp; Data Science · Speaker · Builder" width="100%" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/light.svg">
-</picture>
+![Mohamed Hisshan — AI & Data Science · Speaker · Builder](https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/dark.svg#gh-dark-mode-only)
+![Mohamed Hisshan — AI & Data Science · Speaker · Builder](https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/light.svg#gh-light-mode-only)
 
 # Hi, I'm Mohamed Hisshan
 
