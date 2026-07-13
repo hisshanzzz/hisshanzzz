@@ -92,7 +92,7 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&cache_seconds=86400" alt="GitHub stats" />
 
-<img height="165" src="https://streak-stats.demolab.com/?user=hisshanzzz&theme=radical&hide_border=true&cache_seconds=86400" alt="GitHub streak" />
+<img height="165" src="https://streak-stats.demolab.com/?user=hisshanzzz&theme=radical&hide_border=true&cache_seconds=60" alt="GitHub streak" />
 
 <br />
 
