@@ -2,7 +2,8 @@ name: Update streak stats
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    # Every hour so the card catches same-day commits quickly
+    - cron: "15 * * * *"
   push:
     branches:
       - main
@@ -20,6 +21,7 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
+          # Asia/Colombo matches your local day boundary for the streak card
           options: user=hisshanzzz&theme=radical&hide_border=true&timezone=Asia/Colombo&disable_animations=true
           path: profile/streak.svg
           token: ${{ secrets.STREAK_STATS_TOKEN }}
@@ -29,5 +31,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/streak.svg
-          git diff --cached --quiet || git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "chore: update streak stats"
+          git diff --cached --quiet || git commit -m "chore: update streak stats"
           git push

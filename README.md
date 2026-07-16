@@ -64,7 +64,7 @@ Now I build things that match how I actually work: clear, practical, and made fo
 |---|---------|--------------|
 | 🎤 | [**SpeechLens**](https://github.com/hisshanzzz/speechlens) | Checks speech scripts for timing, filler words and readability |
 | ⚽ | [**FIFA World Cup 2026 Intel**](https://github.com/hisshanzzz/fifa-world-cup-2026-intel) | Match predictor, player tracker, and sentiment apps on real WC data — [Medium write-up](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) |
-| 📈 | [**Price Trends in Sri Lanka**](https://github.com/hisshanzzz/price-trends-in-sri-lanka) | Jupyter analysis of essential price trends (2023–2024) with pandas and matplotlib |
+| 📈 | [**Price Trends in Sri Lanka**](https://github.com/hisshanzzz/price-trends-in-sri-lanka) | Jupyter analysis of essential price trends (2023–2025) with pandas and matplotlib |
 | 🧠 | [**ReCall**](https://github.com/hisshanzzz/recall) | AI voice companion for dementia patients — **Team SustainX, Cursor Buildathon 2026** · [demo](https://youtube.com/shorts/dYMUKUocIl4) |
 | 🎭 | [**The Stage**](https://github.com/hisshanzzz/Portfolio) | My portfolio — spotlight cursor, Toastmasters timing lights, live SpeechLens demo |
 | 🎮 | [**JV Pirates**](https://github.com/hisshanzzz/JVPirates) | 2D Pygame adventure — Team Typhoons, CraftQuest @ American Center Colombo |
@@ -90,15 +90,15 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=60" alt="GitHub stats" />
+<!-- Stats: stable public fork; cache 1 day to avoid flaky 503s -->
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" alt="GitHub stats" />
 
+<!-- Streak: self-hosted SVG, refreshed hourly by GitHub Actions (no live 503s) -->
 <img height="165" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/streak.svg" alt="GitHub streak" />
 
-<br />
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=hisshanzzz&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph&count_private=true&cache_seconds=60" alt="Contribution graph" />
-
 </div>
+
+> Streak card updates hourly from GitHub Actions. Green squares on your profile can take up to a few hours after a push to appear — that is GitHub, not a broken commit.
 
 ---
 
