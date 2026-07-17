@@ -9,6 +9,12 @@ on:
       - main
   workflow_dispatch:
 
+# Serialize runs so overlapping triggers (push + schedule + dispatch) never
+# race each other on `git push`.
+concurrency:
+  group: profile-graphs
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -64,5 +70,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # Only stages files that exist; broken fetches never overwrite good SVGs above
           git add profile/streak.svg profile/stats.svg profile/activity.svg
-          git diff --cached --quiet || git commit -m "chore: update profile graphs"
-          git push
+          git diff --cached --quiet && { echo "no graph changes to commit"; exit 0; }
+          git commit -m "chore: update profile graphs"
+          # Rebase-and-retry so a concurrent bot push can't fail the job
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main || true
+            if git push origin main; then
+              echo "pushed on attempt $i"; exit 0
+            fi
+            echo "push attempt $i failed (remote moved); retrying..."
+            sleep 5
+          done
+          echo "could not push after retries"; exit 1
