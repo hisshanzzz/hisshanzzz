@@ -5,7 +5,7 @@
 
 # Hi, I'm Mohamed Hisshan
 
-<img align="right" alt="Mohamed Hisshan" width="220" src="https://github.com/hisshanzzz.png" />
+<img align="right" alt="Mohamed Hisshan — Stage Craft 2026" width="220" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/avatar.png?v=1" />
 
 **AI & Data Science student** · **Speaker** · **Builder** · Colombo, Sri Lanka
 
