@@ -68,17 +68,32 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Only stages files that exist; broken fetches never overwrite good SVGs above
-          git add profile/streak.svg profile/stats.svg profile/activity.svg
-          git diff --cached --quiet && { echo "no graph changes to commit"; exit 0; }
-          git commit -m "chore: update profile graphs"
-          # Rebase-and-retry so a concurrent bot push can't fail the job
+
+          # Stash the freshly generated SVGs outside git so we can always re-apply
+          # them cleanly on top of the latest remote. This avoids merge conflicts
+          # entirely: the committed graphs are last-known-good regenerated files,
+          # never something that needs merging.
+          backup="$(mktemp -d)"
+          for f in streak.svg stats.svg activity.svg; do
+            [ -f "profile/$f" ] && cp "profile/$f" "$backup/$f"
+          done
+
           for i in 1 2 3 4 5; do
-            git pull --rebase --autostash origin main || true
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p profile
+            for f in streak.svg stats.svg activity.svg; do
+              [ -f "$backup/$f" ] && cp "$backup/$f" "profile/$f"
+            done
+            git add profile/streak.svg profile/stats.svg profile/activity.svg
+            if git diff --cached --quiet; then
+              echo "no graph changes to commit"; exit 0
+            fi
+            git commit -m "chore: update profile graphs"
             if git push origin main; then
               echo "pushed on attempt $i"; exit 0
             fi
             echo "push attempt $i failed (remote moved); retrying..."
-            sleep 5
+            sleep $((RANDOM % 5 + 3))
           done
           echo "could not push after retries"; exit 1
