@@ -90,15 +90,18 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 <div align="center">
 
-<!-- Stats: stable public fork; cache 1 day to avoid flaky 503s -->
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" alt="GitHub stats" />
+<!-- All cards are self-hosted SVGs in this repo, refreshed hourly by GitHub Actions. -->
+<!-- They render from raw.githubusercontent.com, so a third-party outage can never blank them. -->
+<img height="165" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/stats.svg?v=7" alt="GitHub stats" />
+<img height="165" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/streak.svg?v=7" alt="GitHub streak" />
 
-<!-- Streak: self-hosted SVG, refreshed hourly by GitHub Actions (no live 503s) -->
-<img height="165" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/streak.svg" alt="GitHub streak" />
+<br/>
+
+<img width="100%" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/activity.svg?v=7" alt="Contribution graph" />
 
 </div>
 
-> Streak card updates hourly from GitHub Actions. Green squares on your profile can take up to a few hours after a push to appear — that is GitHub, not a broken commit.
+> Stats, streak, and contribution cards are self-hosted SVGs in this repo, refreshed hourly by GitHub Actions — no live third-party widgets, so they can't disappear during an outage. Green squares on your profile can take up to a few hours after a push to appear — that is GitHub, not a broken commit.
 
 ---
 

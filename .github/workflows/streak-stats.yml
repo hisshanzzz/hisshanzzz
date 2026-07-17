@@ -1,8 +1,8 @@
-name: Update streak stats
+name: Update profile graphs
 
 on:
   schedule:
-    # Every hour so the card catches same-day commits quickly
+    # Every hour so the cards catch same-day commits quickly
     - cron: "15 * * * *"
   push:
     branches:
@@ -26,10 +26,43 @@ jobs:
           path: profile/streak.svg
           token: ${{ secrets.STREAK_STATS_TOKEN }}
 
-      - name: Commit streak stats
+      - name: Generate stats card (last-known-good SVG)
+        continue-on-error: true
+        run: |
+          mkdir -p profile
+          url="https://github-readme-stats-sigma-five.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800"
+          tmp="$(mktemp)"
+          if curl -fsSL --max-time 30 --retry 3 --retry-delay 5 -o "$tmp" "$url" \
+            && [ -s "$tmp" ] \
+            && head -c 400 "$tmp" | grep -qiE '<svg|<\?xml'; then
+            mv "$tmp" profile/stats.svg
+            echo "stats.svg refreshed ($(wc -c < profile/stats.svg) bytes)"
+          else
+            echo "stats card fetch failed; keeping last-known-good profile/stats.svg"
+            rm -f "$tmp"
+          fi
+
+      - name: Generate activity graph (last-known-good SVG)
+        continue-on-error: true
+        run: |
+          mkdir -p profile
+          url="https://github-readme-activity-graph.vercel.app/graph?username=hisshanzzz&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph"
+          tmp="$(mktemp)"
+          if curl -fsSL --max-time 30 --retry 3 --retry-delay 5 -o "$tmp" "$url" \
+            && [ -s "$tmp" ] \
+            && head -c 400 "$tmp" | grep -qiE '<svg|<\?xml'; then
+            mv "$tmp" profile/activity.svg
+            echo "activity.svg refreshed ($(wc -c < profile/activity.svg) bytes)"
+          else
+            echo "activity graph fetch failed; keeping last-known-good profile/activity.svg"
+            rm -f "$tmp"
+          fi
+
+      - name: Commit profile graphs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/streak.svg
-          git diff --cached --quiet || git commit -m "chore: update streak stats"
+          # Only stages files that exist; broken fetches never overwrite good SVGs above
+          git add profile/streak.svg profile/stats.svg profile/activity.svg
+          git diff --cached --quiet || git commit -m "chore: update profile graphs"
           git push
