@@ -5,9 +5,11 @@
 
 # Hi, I'm Mohamed Hisshan
 
-<img align="right" alt="Mohamed Hisshan — Stage Craft 2026" width="220" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/avatar.png?v=1" />
+<img align="right" alt="Mohamed Hisshan â€” Stage Craft 2026" width="220" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/avatar.png?v=1" />
 
-**AI & Data Science student** · **Speaker** · **Builder** · Colombo, Sri Lanka
+**AI & Data Science student** Â· **Speaker** Â· **Builder** Â· Colombo, Sri Lanka
+
+Currently focused on shipping practical AI tools and speaking gigs around Colombo.
 
 I grew up on stages - Toastmasters, Debate, Emcee, Public Speaking - not in a code editor. I started building when I saw real problems. Seakers losing points on timing, students needing better tools, teams needing to ship under pressure.
 
@@ -22,39 +24,39 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 ---
 
-## 📌 Pinned — Buildathon District Platform (Build Live)
+## ðŸ“Œ Pinned â€” Buildathon District Platform (Build Live)
 
-> **Colombo · Galle · Kandy · Jaffna** — live district leaderboards for Cursor Build Live events across Sri Lanka. Check in from your district, watch the map light up, browse archived hackathon results.
+> **Colombo Â· Galle Â· Kandy Â· Jaffna** â€” live district leaderboards for Cursor Build Live events across Sri Lanka. Check in from your district, watch the map light up, browse archived hackathon results.
 
 | | Link |
 |---|------|
-| 🗺️ **Live site** | [colombo-build-live.vercel.app](https://colombo-build-live.vercel.app) |
-| 💻 **Code** | [github.com/hisshanzzz/colombo-build-live](https://github.com/hisshanzzz/colombo-build-live) |
-| 🔗 **GitHub Pages** | [hisshanzzz.github.io/colombo-build-live](https://hisshanzzz.github.io/colombo-build-live) → Vercel |
+| ðŸ—ºï¸ **Live site** | [colombo-build-live.vercel.app](https://colombo-build-live.vercel.app) |
+| ðŸ’» **Code** | [github.com/hisshanzzz/colombo-build-live](https://github.com/hisshanzzz/colombo-build-live) |
+| ðŸ”— **GitHub Pages** | [hisshanzzz.github.io/colombo-build-live](https://hisshanzzz.github.io/colombo-build-live) â†’ Vercel |
 
 ---
 
-## 📌 Pinned — ReCall (Cursor Buildathon 2026)
+## ðŸ“Œ Pinned â€” ReCall (Cursor Buildathon 2026)
 
-> **Team SustainX · Cursor 24H Buildathon Colombo · May 2026** — AI voice companion for dementia patients. Avatar agent **Ama** speaks Sinhala, uses a family memory book, and sends caregivers WhatsApp session summaries.
+> **Team SustainX Â· Cursor 24H Buildathon Colombo Â· May 2026** â€” AI voice companion for dementia patients. Avatar agent **Ama** speaks Sinhala, uses a family memory book, and sends caregivers WhatsApp session summaries.
 
 | | Link |
 |---|------|
-| 🎬 **Demo** | [YouTube — 60s walkthrough](https://youtube.com/shorts/dYMUKUocIl4) |
-| 💻 **Code** | [github.com/hisshanzzz/recall](https://github.com/hisshanzzz/recall) |
-| 👥 **Team** | Hiruka Devendra · Methuli Heenkenda · Sehara Kodikara · Mohamed Hisshan |
+| ðŸŽ¬ **Demo** | [YouTube â€” 60s walkthrough](https://youtube.com/shorts/dYMUKUocIl4) |
+| ðŸ’» **Code** | [github.com/hisshanzzz/recall](https://github.com/hisshanzzz/recall) |
+| ðŸ‘¥ **Team** | Hiruka Devendra Â· Methuli Heenkenda Â· Sehara Kodikara Â· Mohamed Hisshan |
 
 ---
 
-## 📌 Pinned — FIFA World Cup 2026 Intel
+## ðŸ“Œ Pinned â€” FIFA World Cup 2026 Intel
 
-> **New on Medium:** [I Built 3 Python Dashboards for FIFA World Cup 2026](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) — match predictor, player tracker, and live sentiment on real CC0 data. Round of 16 in production.
+> **New on Medium:** [I Built 3 Python Dashboards for FIFA World Cup 2026](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) â€” match predictor, player tracker, and live sentiment on real CC0 data. Round of 16 in production.
 
 | | Link |
 |---|------|
-| 📖 **Read** | [Medium article](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) |
-| 💻 **Code** | [github.com/hisshanzzz/fifa-world-cup-2026-intel](https://github.com/hisshanzzz/fifa-world-cup-2026-intel) |
-| 🔮 **Live** | [Match Predictor](https://wc2026-match-predictor.streamlit.app) · [Player Tracker](https://wc2026-player-tracker.streamlit.app) · [Sentiment](https://wc2026-sentiment.streamlit.app) |
+| ðŸ“– **Read** | [Medium article](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) |
+| ðŸ’» **Code** | [github.com/hisshanzzz/fifa-world-cup-2026-intel](https://github.com/hisshanzzz/fifa-world-cup-2026-intel) |
+| ðŸ”® **Live** | [Match Predictor](https://wc2026-match-predictor.streamlit.app) Â· [Player Tracker](https://wc2026-player-tracker.streamlit.app) Â· [Sentiment](https://wc2026-sentiment.streamlit.app) |
 
 ---
 
@@ -62,27 +64,27 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 | | Project | What it does |
 |---|---------|--------------|
-| 🎤 | [**SpeechLens**](https://github.com/hisshanzzz/speechlens) | Checks speech scripts for timing, filler words and readability |
-| ⚽ | [**FIFA World Cup 2026 Intel**](https://github.com/hisshanzzz/fifa-world-cup-2026-intel) | Match predictor, player tracker, and sentiment apps on real WC data — [Medium write-up](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) |
-| 📈 | [**Price Trends in Sri Lanka**](https://github.com/hisshanzzz/price-trends-in-sri-lanka) | Jupyter analysis of essential price trends (2023–2025) with pandas and matplotlib |
-| 🧠 | [**ReCall**](https://github.com/hisshanzzz/recall) | AI voice companion for dementia patients — **Team SustainX, Cursor Buildathon 2026** · [demo](https://youtube.com/shorts/dYMUKUocIl4) |
-| 🎭 | [**The Stage**](https://github.com/hisshanzzz/Portfolio) | My portfolio — spotlight cursor, Toastmasters timing lights, live SpeechLens demo |
-| 🎮 | [**JV Pirates**](https://github.com/hisshanzzz/JVPirates) | 2D Pygame adventure — Team Typhoons, CraftQuest @ American Center Colombo |
-| 🗺️ | [**Buildathon District Platform**](https://github.com/hisshanzzz/colombo-build-live) | Live district leaderboards for **Colombo · Galle · Kandy · Jaffna** Build Live — [live site](https://colombo-build-live.vercel.app) |
+| ðŸŽ¤ | [**SpeechLens**](https://github.com/hisshanzzz/speechlens) | Checks speech scripts for timing, filler words and readability |
+| âš½ | [**FIFA World Cup 2026 Intel**](https://github.com/hisshanzzz/fifa-world-cup-2026-intel) | Match predictor, player tracker, and sentiment apps on real WC data â€” [Medium write-up](https://medium.com/@hisshan2004/3-python-dashboards-for-fifa-world-cup-2026-42e2526fc0c7) |
+| ðŸ“ˆ | [**Price Trends in Sri Lanka**](https://github.com/hisshanzzz/price-trends-in-sri-lanka) | Jupyter analysis of essential price trends (2023â€“2025) with pandas and matplotlib |
+| ðŸ§  | [**ReCall**](https://github.com/hisshanzzz/recall) | AI voice companion for dementia patients â€” **Team SustainX, Cursor Buildathon 2026** Â· [demo](https://youtube.com/shorts/dYMUKUocIl4) |
+| ðŸŽ­ | [**The Stage**](https://github.com/hisshanzzz/Portfolio) | My portfolio â€” spotlight cursor, Toastmasters timing lights, live SpeechLens demo |
+| ðŸŽ® | [**JV Pirates**](https://github.com/hisshanzzz/JVPirates) | 2D Pygame adventure â€” Team Typhoons, CraftQuest @ American Center Colombo |
+| ðŸ—ºï¸ | [**Buildathon District Platform**](https://github.com/hisshanzzz/colombo-build-live) | Live district leaderboards for **Colombo Â· Galle Â· Kandy Â· Jaffna** Build Live â€” [live site](https://colombo-build-live.vercel.app) |
 
 ---
 
 ## Background
 
-- **Education:** Robert Gordon University × Open University of Sri Lanka — AI & Data Science
-- **Also:** Toastmaster (4.5+ yrs) · Founder, [English Pro Hub](https://www.linkedin.com/in/mohamed-jaufer-mohamed-hisshan-31399525b) · Speech adjudicator (25+ contests)
-- **Highlights:** Provincial 2nd — English Day Dictation (2022) · District 3rd — Prepared Speech (2023) · Best Presenter — Eastern Province Leadership Programme (2023)
+- **Education:** Robert Gordon University Ã— Open University of Sri Lanka â€” AI & Data Science
+- **Also:** Toastmaster (4.5+ yrs) Â· Founder, [English Pro Hub](https://www.linkedin.com/in/mohamed-jaufer-mohamed-hisshan-31399525b) Â· Speech adjudicator (25+ contests)
+- **Highlights:** Provincial 2nd â€” English Day Dictation (2022) Â· District 3rd â€” Prepared Speech (2023) Â· Best Presenter â€” Eastern Province Leadership Programme (2023)
 
 ---
 
 ## Tech I use
 
-`Python` · `JavaScript` · `TypeScript` · `Next.js` · `pandas` · `matplotlib` · `Jupyter` · `Pygame` · `LiveKit` · `Gemini` · `Supabase` · `Git`
+`Python` Â· `JavaScript` Â· `TypeScript` Â· `Next.js` Â· `pandas` Â· `matplotlib` Â· `Jupyter` Â· `Pygame` Â· `LiveKit` Â· `Gemini` Â· `Supabase` Â· `Git`
 
 ---
 
@@ -101,7 +103,7 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 </div>
 
-> Stats, streak, and contribution cards are self-hosted SVGs in this repo, refreshed hourly by GitHub Actions — no live third-party widgets, so they can't disappear during an outage. Green squares on your profile can take up to a few hours after a push to appear — that is GitHub, not a broken commit.
+> Stats, streak, and contribution cards are self-hosted SVGs in this repo, refreshed hourly by GitHub Actions â€” no live third-party widgets, so they can't disappear during an outage. Green squares on your profile can take up to a few hours after a push to appear â€” that is GitHub, not a broken commit.
 
 ---
 
@@ -111,6 +113,6 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 <div align="center">
 
-**Let's connect** — I love talking about speech, AI, and building things that actually help people.
+**Let's connect** â€” I love talking about speech, AI, and building things that actually help people.
 
 </div>
