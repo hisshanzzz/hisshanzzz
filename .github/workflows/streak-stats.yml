@@ -24,35 +24,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate streak stats
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          # Asia/Colombo matches your local day boundary for the streak card
-          options: user=hisshanzzz&theme=radical&hide_border=true&timezone=Asia/Colombo&disable_animations=true
-          path: profile/streak.svg
-          token: ${{ secrets.STREAK_STATS_TOKEN }}
-
-      - name: Generate stats card from the GitHub API
+      - name: Draw stats, streak, and contribution graph
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python3 .github/scripts/render-stats.py
-
-      - name: Generate activity graph (last-known-good SVG)
-        continue-on-error: true
-        run: |
-          mkdir -p profile
-          url="https://github-readme-activity-graph.vercel.app/graph?username=hisshanzzz&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph"
-          tmp="$(mktemp)"
-          if curl -fsSL --max-time 30 --retry 3 --retry-delay 5 -o "$tmp" "$url" \
-            && [ -s "$tmp" ] \
-            && head -c 400 "$tmp" | grep -qiE '<svg|<\?xml' \
-            && ! grep -qiE 'Something went wrong|Maximum retries|file an issue' "$tmp"; then
-            mv "$tmp" profile/activity.svg
-            echo "activity.svg refreshed ($(wc -c < profile/activity.svg) bytes)"
-          else
-            echo "activity graph fetch failed; keeping last-known-good profile/activity.svg"
-            rm -f "$tmp"
-          fi
+        run: python3 .github/scripts/render-graphs.py
 
       - name: Commit profile graphs
         run: |

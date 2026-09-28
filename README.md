@@ -92,18 +92,17 @@ Now I build things that match how I actually work: clear, practical, and made fo
 
 <div align="center">
 
-<!-- All cards are self-hosted SVGs in this repo, refreshed hourly by GitHub Actions. -->
-<!-- They render from raw.githubusercontent.com, so a third-party outage can never blank them. -->
-<img height="165" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/stats.svg?v=8" alt="GitHub stats" />
-<img height="165" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/streak.svg?v=7" alt="GitHub streak" />
+<!-- Cards are drawn by .github/scripts/render-graphs.py. Colors are attributes, not CSS. -->
+<img height="165" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/stats.svg?v=9" alt="GitHub stats" />
+<img height="165" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/streak.svg?v=9" alt="GitHub streak" />
 
 <br/>
 
-<img width="100%" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/activity.svg?v=7" alt="Contribution graph" />
+<img width="100%" src="https://raw.githubusercontent.com/hisshanzzz/hisshanzzz/main/profile/activity.svg?v=9" alt="Contribution graph" />
 
 </div>
 
-> Stats, streak, and contribution cards are self-hosted SVGs in this repo, refreshed hourly by GitHub Actions — no live third-party widgets, so they can't disappear during an outage. Green squares on your profile can take up to a few hours after a push to appear — that is GitHub, not a broken commit.
+> Stats, streak, and the contribution graph are drawn in this repo from the GitHub API and refreshed hourly. The colors sit on the shapes themselves, so the cards stay readable.
 
 ---
 
