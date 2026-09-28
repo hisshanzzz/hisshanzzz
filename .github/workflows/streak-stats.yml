@@ -32,21 +32,10 @@ jobs:
           path: profile/streak.svg
           token: ${{ secrets.STREAK_STATS_TOKEN }}
 
-      - name: Generate stats card (last-known-good SVG)
-        continue-on-error: true
-        run: |
-          mkdir -p profile
-          url="https://github-readme-stats-sigma-five.vercel.app/api?username=hisshanzzz&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800"
-          tmp="$(mktemp)"
-          if curl -fsSL --max-time 30 --retry 3 --retry-delay 5 -o "$tmp" "$url" \
-            && [ -s "$tmp" ] \
-            && head -c 400 "$tmp" | grep -qiE '<svg|<\?xml'; then
-            mv "$tmp" profile/stats.svg
-            echo "stats.svg refreshed ($(wc -c < profile/stats.svg) bytes)"
-          else
-            echo "stats card fetch failed; keeping last-known-good profile/stats.svg"
-            rm -f "$tmp"
-          fi
+      - name: Generate stats card from the GitHub API
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/render-stats.py
 
       - name: Generate activity graph (last-known-good SVG)
         continue-on-error: true
@@ -56,7 +45,8 @@ jobs:
           tmp="$(mktemp)"
           if curl -fsSL --max-time 30 --retry 3 --retry-delay 5 -o "$tmp" "$url" \
             && [ -s "$tmp" ] \
-            && head -c 400 "$tmp" | grep -qiE '<svg|<\?xml'; then
+            && head -c 400 "$tmp" | grep -qiE '<svg|<\?xml' \
+            && ! grep -qiE 'Something went wrong|Maximum retries|file an issue' "$tmp"; then
             mv "$tmp" profile/activity.svg
             echo "activity.svg refreshed ($(wc -c < profile/activity.svg) bytes)"
           else
